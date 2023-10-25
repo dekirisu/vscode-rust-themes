@@ -1,0 +1,65 @@
+{
+  "name": "dekirisu-rust-themes",
+  "version": "0.0.1",
+  "publisher": "dekirisu",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dekirisu/vscode-rust-themes"
+  },
+  "type": "module",
+  "displayName": "Dekirisu's Rust Themes",
+  "description": "My rust themes highlighting unsafe/async/macro functions!",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/logo.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/github-f62ca5?logo=github",
+      "href": "https://github.com/dekirisu/vscode-rust-themes",
+      "description": "GitHub repo of the themes."
+    },{
+      "url": "https://img.shields.io/badge/discord-ae5cbd?logo=discord&logoColor=white",
+      "href": "https://discord.gg/kevWvBuPFg",
+      "description": "Discord Server invitation link."
+    },{
+      "url": "https://img.shields.io/badge/mastodon-787fd0?logo=mastodon&logoColor=white",
+      "href": "https://mastodon.social/@dekirisu",
+      "description": "Me on mastodon."
+    },{
+      "url": "https://img.shields.io/badge/twitter-2bb2ea?logo=x&logoColor=white",
+      "href": "https://twitter.com/dekirisu",
+      "description": "Me on mastodon."
+    }
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dekirisu's Dawn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dekirisu-theme-dawn.json"
+      },{
+        "label": "Dekirisu's Rainbow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dekirisu-theme-rainbow.json"
+      },{
+        "label": "Dekirisu's Entropy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dekirisu-theme-entropy.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.4"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "rust",
+    "rustlang"
+  ]
+}
